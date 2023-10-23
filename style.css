@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.engkatta {
+  background-image: url("./obid.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.katta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.katta h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.katta h3 {
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 50px;
+  color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  background-color: aliceblue;
+  width: 50px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#ic1 {
+  color: rgb(0, 125, 234);
+  font-size: 27px;
+}
+
+.ic2 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.ic3 {
+  color: red;
+  font-size: 30px;
+}
+
+.ic4 {
+  color: rgb(249, 37, 203);
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .katta h3 {
+    font-size: 14px;
+    width: 300px;
+    font-weight: 200;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+  }
+
+  .katta h1 {
+    font-size: 17px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.699);
+    width: 300px;
+  }
+
+  #ic1 {
+    color: rgb(0, 125, 234);
+    font-size: 20px;
+  }
+
+  .ic2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+
+  .ic3 {
+    color: red;
+    font-size: 20px;
+  }
+
+  .ic4 {
+    color: rgb(249, 37, 203);
+    font-size: 20px;
+  }
+}
